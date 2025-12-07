@@ -1,0 +1,55 @@
+======================================================================
+  CLIMATE-SMART DECISION RECOMMENDATIONS
+  Generated: 2025-12-07 14:26:19
+======================================================================
+
+
+==================================================
+  AGRICULTURE
+==================================================
+
+  Recommendation 1:
+  Priority: HIGH
+  Finding: Declining precipitation trend
+  Action: Adopt drip irrigation; select drought-resistant varieties
+  Timeline: Implement in next growing season
+
+  Recommendation 2:
+  Priority: HIGH
+  Finding: Declining soil moisture trend
+  Action: Implement mulching and cover cropping; improve soil organic matter
+  Timeline: Start soil improvement programs within 6 months
+
+
+==================================================
+  WATER MANAGEMENT
+==================================================
+
+  Recommendation 1:
+  Priority: CRITICAL
+  Finding: Rainfall declining by 10.82mm per decade
+  Action: Invest in water storage infrastructure; implement water recycling
+  Timeline: Begin infrastructure planning immediately
+
+
+==================================================
+  URBAN PLANNING
+==================================================
+
+  Recommendation 1:
+  Priority: HIGH
+  Finding: Extreme rainfall regime occurs 18.8% of the time
+  Action: Review and expand urban drainage capacity; restrict development in flood zones
+  Timeline: Include in next urban development plan
+
+
+==================================================
+  DISASTER PREPAREDNESS
+==================================================
+
+  Recommendation 1:
+  Priority: MEDIUM
+  Finding: High anomaly rates in months: ['Jul', 'Aug']
+  Action: Enhanced monitoring during these months; pre-position emergency resources
+  Timeline: Update protocols before identified months
+
