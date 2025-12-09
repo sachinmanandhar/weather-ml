@@ -1,0 +1,45 @@
+============================================================
+  CLIMATE RECOMMENDATIONS FOR CHITAWAN
+  Generated: 2025-12-07 15:16:30
+============================================================
+
+
+--------------------------------------------------
+  AGRICULTURE
+--------------------------------------------------
+
+  [HIGH] Declining precipitation trend in Chitawan
+  → Action: Adopt drip irrigation; select drought-resistant varieties
+  → Timeline: Implement in next growing season
+
+  [HIGH] Declining soil moisture trend in Chitawan
+  → Action: Implement mulching and cover cropping; improve soil organic matter
+  → Timeline: Start soil improvement programs within 6 months
+
+
+--------------------------------------------------
+  WATER MANAGEMENT
+--------------------------------------------------
+
+  [CRITICAL] Rainfall declining by 1.17mm per decade in Chitawan
+  → Action: Invest in water storage infrastructure; implement water recycling
+  → Timeline: Begin infrastructure planning immediately
+
+
+--------------------------------------------------
+  URBAN PLANNING
+--------------------------------------------------
+
+  [HIGH] Extreme rainfall regime occurs 23.5% of the time in Chitawan
+  → Action: Review and expand urban drainage capacity; restrict development in flood zones
+  → Timeline: Include in next urban development plan
+
+
+--------------------------------------------------
+  DISASTER PREPAREDNESS
+--------------------------------------------------
+
+  [MEDIUM] High anomaly rates in Chitawan during: ['Jun', 'Jul']
+  → Action: Enhanced monitoring during these months; pre-position emergency resources
+  → Timeline: Update protocols before identified months
+

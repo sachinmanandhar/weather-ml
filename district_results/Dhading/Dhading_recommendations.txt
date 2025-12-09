@@ -1,0 +1,58 @@
+============================================================
+  CLIMATE RECOMMENDATIONS FOR DHADING
+  Generated: 2025-12-07 15:16:48
+============================================================
+
+
+--------------------------------------------------
+  AGRICULTURE
+--------------------------------------------------
+
+  [HIGH] Temperature increasing by 0.51°C per decade in Dhading
+  → Action: Shift to heat-tolerant crop varieties; adjust planting calendars
+  → Timeline: Immediate planning, implement within 1-2 growing seasons
+
+  [HIGH] Declining precipitation trend in Dhading
+  → Action: Adopt drip irrigation; select drought-resistant varieties
+  → Timeline: Implement in next growing season
+
+  [HIGH] Declining soil moisture trend in Dhading
+  → Action: Implement mulching and cover cropping; improve soil organic matter
+  → Timeline: Start soil improvement programs within 6 months
+
+
+--------------------------------------------------
+  WATER MANAGEMENT
+--------------------------------------------------
+
+  [CRITICAL] Rainfall declining by 1.01mm per decade in Dhading
+  → Action: Invest in water storage infrastructure; implement water recycling
+  → Timeline: Begin infrastructure planning immediately
+
+
+--------------------------------------------------
+  URBAN PLANNING
+--------------------------------------------------
+
+  [HIGH] Extreme rainfall regime occurs 19.9% of the time in Dhading
+  → Action: Review and expand urban drainage capacity; restrict development in flood zones
+  → Timeline: Include in next urban development plan
+
+
+--------------------------------------------------
+  DISASTER PREPAREDNESS
+--------------------------------------------------
+
+  [MEDIUM] High anomaly rates in Dhading during: ['May', 'Jun', 'Jul']
+  → Action: Enhanced monitoring during these months; pre-position emergency resources
+  → Timeline: Update protocols before identified months
+
+
+--------------------------------------------------
+  HEALTH SECTOR
+--------------------------------------------------
+
+  [HIGH] Warming trend detected in Dhading
+  → Action: Expand heat-health warning systems; increase cooling centers
+  → Timeline: Before next summer season
+
