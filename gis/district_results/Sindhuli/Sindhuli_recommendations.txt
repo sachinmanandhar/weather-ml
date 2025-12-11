@@ -1,0 +1,45 @@
+============================================================
+  CLIMATE RECOMMENDATIONS FOR SINDHULI
+  Generated: 2025-12-07 15:16:43
+============================================================
+
+
+--------------------------------------------------
+  AGRICULTURE
+--------------------------------------------------
+
+  [HIGH] Declining precipitation trend in Sindhuli
+  → Action: Adopt drip irrigation; select drought-resistant varieties
+  → Timeline: Implement in next growing season
+
+  [HIGH] Declining soil moisture trend in Sindhuli
+  → Action: Implement mulching and cover cropping; improve soil organic matter
+  → Timeline: Start soil improvement programs within 6 months
+
+
+--------------------------------------------------
+  WATER MANAGEMENT
+--------------------------------------------------
+
+  [CRITICAL] Rainfall declining by 0.87mm per decade in Sindhuli
+  → Action: Invest in water storage infrastructure; implement water recycling
+  → Timeline: Begin infrastructure planning immediately
+
+
+--------------------------------------------------
+  URBAN PLANNING
+--------------------------------------------------
+
+  [HIGH] Extreme rainfall regime occurs 20.6% of the time in Sindhuli
+  → Action: Review and expand urban drainage capacity; restrict development in flood zones
+  → Timeline: Include in next urban development plan
+
+
+--------------------------------------------------
+  DISASTER PREPAREDNESS
+--------------------------------------------------
+
+  [MEDIUM] High anomaly rates in Sindhuli during: ['Jul', 'Aug']
+  → Action: Enhanced monitoring during these months; pre-position emergency resources
+  → Timeline: Update protocols before identified months
+

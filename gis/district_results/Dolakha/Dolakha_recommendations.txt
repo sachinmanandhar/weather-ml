@@ -1,0 +1,62 @@
+============================================================
+  CLIMATE RECOMMENDATIONS FOR DOLAKHA
+  Generated: 2025-12-07 15:16:47
+============================================================
+
+
+--------------------------------------------------
+  AGRICULTURE
+--------------------------------------------------
+
+  [HIGH] Temperature increasing by 0.94°C per decade in Dolakha
+  → Action: Shift to heat-tolerant crop varieties; adjust planting calendars
+  → Timeline: Immediate planning, implement within 1-2 growing seasons
+
+  [HIGH] Declining precipitation trend in Dolakha
+  → Action: Adopt drip irrigation; select drought-resistant varieties
+  → Timeline: Implement in next growing season
+
+  [HIGH] Declining soil moisture trend in Dolakha
+  → Action: Implement mulching and cover cropping; improve soil organic matter
+  → Timeline: Start soil improvement programs within 6 months
+
+
+--------------------------------------------------
+  WATER MANAGEMENT
+--------------------------------------------------
+
+  [CRITICAL] Rainfall declining by 0.97mm per decade in Dolakha
+  → Action: Invest in water storage infrastructure; implement water recycling
+  → Timeline: Begin infrastructure planning immediately
+
+  [MEDIUM] Hot & dry conditions occur 17.4% of the time in Dolakha
+  → Action: Develop water rationing protocols; promote rainwater harvesting
+  → Timeline: Policy ready before dry season
+
+
+--------------------------------------------------
+  URBAN PLANNING
+--------------------------------------------------
+
+  [HIGH] Extreme rainfall regime occurs 12.4% of the time in Dolakha
+  → Action: Review and expand urban drainage capacity; restrict development in flood zones
+  → Timeline: Include in next urban development plan
+
+
+--------------------------------------------------
+  DISASTER PREPAREDNESS
+--------------------------------------------------
+
+  [MEDIUM] High anomaly rates in Dolakha during: ['Jun', 'Jul', 'Aug']
+  → Action: Enhanced monitoring during these months; pre-position emergency resources
+  → Timeline: Update protocols before identified months
+
+
+--------------------------------------------------
+  HEALTH SECTOR
+--------------------------------------------------
+
+  [HIGH] Warming trend detected in Dolakha
+  → Action: Expand heat-health warning systems; increase cooling centers
+  → Timeline: Before next summer season
+

@@ -1,0 +1,433 @@
+======================================================================
+  CLIMATE-SMART RECOMMENDATIONS - ALL DISTRICTS
+  Generated: 2025-12-07 15:16:52
+======================================================================
+
+
+============================================================
+  SINDHUPALCHOK
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.74°C per decade in Sindhupalchok
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Sindhupalchok
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Sindhupalchok
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 1.17mm per decade in Sindhupalchok
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 21.6% of the time in Sindhupalchok
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Sindhupalchok during: ['Jun', 'Jul']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Sindhupalchok
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  NUWAKOT
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.56°C per decade in Nuwakot
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Nuwakot
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Nuwakot
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 1.00mm per decade in Nuwakot
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 19.5% of the time in Nuwakot
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Nuwakot during: ['Jun', 'Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Nuwakot
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  CHITAWAN
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Chitawan
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Chitawan
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 1.17mm per decade in Chitawan
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 23.5% of the time in Chitawan
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Chitawan during: ['Jun', 'Jul']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  BHAKTAPUR
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Bhaktapur
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Bhaktapur
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.84mm per decade in Bhaktapur
+    → Invest in water storage infrastructure; implement water recycling
+
+    [MEDIUM] Hot & dry conditions occur 15.6% of the time in Bhaktapur
+    → Develop water rationing protocols; promote rainwater harvesting
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 20.2% of the time in Bhaktapur
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Bhaktapur during: ['Jun', 'Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  LALITPUR
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Lalitpur
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Lalitpur
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.88mm per decade in Lalitpur
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 22.3% of the time in Lalitpur
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Lalitpur during: ['Jun', 'Jul']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  RASUWA
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.83°C per decade in Rasuwa
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Rasuwa
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Rasuwa
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.84mm per decade in Rasuwa
+    → Invest in water storage infrastructure; implement water recycling
+
+    [MEDIUM] Hot & dry conditions occur 22.0% of the time in Rasuwa
+    → Develop water rationing protocols; promote rainwater harvesting
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 21.3% of the time in Rasuwa
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Rasuwa during: ['Jun', 'Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Rasuwa
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  KATHMANDU
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Kathmandu
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Kathmandu
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.90mm per decade in Kathmandu
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 18.8% of the time in Kathmandu
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Kathmandu during: ['Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  RAMECHHAP
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.62°C per decade in Ramechhap
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Ramechhap
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Ramechhap
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.83mm per decade in Ramechhap
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 19.5% of the time in Ramechhap
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Ramechhap during: ['Jun', 'Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Ramechhap
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  KABHREPALANCHOK
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Kabhrepalanchok
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Kabhrepalanchok
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.86mm per decade in Kabhrepalanchok
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 20.9% of the time in Kabhrepalanchok
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Kabhrepalanchok during: ['Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  SINDHULI
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Declining precipitation trend in Sindhuli
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Sindhuli
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.87mm per decade in Sindhuli
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 20.6% of the time in Sindhuli
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Sindhuli during: ['Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+
+============================================================
+  MAKAWANPUR
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.36°C per decade in Makawanpur
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Makawanpur
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Makawanpur
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 1.09mm per decade in Makawanpur
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 22.7% of the time in Makawanpur
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Makawanpur during: ['Jun', 'Jul']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Makawanpur
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  DOLAKHA
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.94°C per decade in Dolakha
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Dolakha
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Dolakha
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 0.97mm per decade in Dolakha
+    → Invest in water storage infrastructure; implement water recycling
+
+    [MEDIUM] Hot & dry conditions occur 17.4% of the time in Dolakha
+    → Develop water rationing protocols; promote rainwater harvesting
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 12.4% of the time in Dolakha
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Dolakha during: ['Jun', 'Jul', 'Aug']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Dolakha
+    → Expand heat-health warning systems; increase cooling centers
+
+
+
+============================================================
+  DHADING
+============================================================
+
+  AGRICULTURE:
+    [HIGH] Temperature increasing by 0.51°C per decade in Dhading
+    → Shift to heat-tolerant crop varieties; adjust planting calendars
+
+    [HIGH] Declining precipitation trend in Dhading
+    → Adopt drip irrigation; select drought-resistant varieties
+
+    [HIGH] Declining soil moisture trend in Dhading
+    → Implement mulching and cover cropping; improve soil organic matter
+
+
+  WATER MANAGEMENT:
+    [CRITICAL] Rainfall declining by 1.01mm per decade in Dhading
+    → Invest in water storage infrastructure; implement water recycling
+
+
+  URBAN PLANNING:
+    [HIGH] Extreme rainfall regime occurs 19.9% of the time in Dhading
+    → Review and expand urban drainage capacity; restrict development in flood zones
+
+
+  DISASTER PREPAREDNESS:
+    [MEDIUM] High anomaly rates in Dhading during: ['May', 'Jun', 'Jul']
+    → Enhanced monitoring during these months; pre-position emergency resources
+
+
+  HEALTH SECTOR:
+    [HIGH] Warming trend detected in Dhading
+    → Expand heat-health warning systems; increase cooling centers
+

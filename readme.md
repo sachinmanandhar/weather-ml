@@ -86,7 +86,7 @@ cd /path/to/anamoly_detection
 pipenv install
 
 # Or with pip
-pip install pandas numpy scikit-learn matplotlib seaborn xarray netCDF4
+pip install pandas numpy scikit-learn scipy matplotlib seaborn xarray netCDF4
 ```
 
 ### Required Libraries
@@ -95,10 +95,11 @@ pip install pandas numpy scikit-learn matplotlib seaborn xarray netCDF4
 pandas>=1.5.0
 numpy>=1.23.0
 scikit-learn>=1.2.0
+scipy>=1.9.0          # For statistical tests (Mann-Kendall, linear regression)
 matplotlib>=3.6.0
 seaborn>=0.12.0
-xarray>=2023.1.0
-netCDF4>=1.6.0
+xarray>=2023.1.0      # Optional: for NetCDF analysis
+netCDF4>=1.6.0        # Optional: for NetCDF analysis
 ```
 
 ---
@@ -343,27 +344,52 @@ Map anomalies on Nepal grid using lat/lon coordinates from NetCDF files.
 anamoly_detection/
 ├── data/
 │   ├── second/
-│   │   ├── data.csv           # Monthly climate data
-│   │   └── parameter.csv      # Parameter metadata
-│   └── *.nc                   # NetCDF ensemble files
-├── index.py                   # NetCDF analysis script
-├── second.py                  # Weather regime clustering
-├── test_index.py              # Unit tests
-├── readme.md                  # This file
-├── Pipfile                    # Python dependencies
-├── Pipfile.lock               # Locked dependencies
-├── weather_regime_clustering.png    # Clustering visualization
-├── weather_regime_results.csv       # Clustering results
-└── anomaly_detection_results.png    # Anomaly visualization
+│   │   ├── data_all_province.csv  # Multi-district climate data
+│   │   ├── districts.csv          # District list for analysis
+│   │   ├── data.csv               # Single district data (legacy)
+│   │   └── parameter.csv          # Parameter metadata
+│   └── *.nc                       # NetCDF ensemble files
+│
+├── district_results/               # Output directory (generated)
+│   ├── comparative_dashboard.png
+│   ├── all_districts_summary.csv
+│   ├── all_districts_recommendations.txt
+│   └── [District_Name]/           # One folder per district
+│       ├── [District]_dashboard.png
+│       ├── [District]_results.csv
+│       ├── [District]_trends.csv
+│       ├── [District]_anomalies.csv
+│       └── [District]_recommendations.txt
+│
+├── multi_district_analysis.py     # Main multi-district analysis script ⭐
+├── index.py                       # NetCDF analysis script
+├── second.py                      # Single district clustering (legacy)
+├── test_index.py                  # Unit tests
+│
+├── readme.md                      # This file
+├── Pipfile                        # Python dependencies
+└── Pipfile.lock                   # Locked dependencies
 ```
 
 ---
 
 ## References
 
+### Machine Learning Methods
+
 - **K-Means Clustering**: MacQueen, J. (1967). Some methods for classification and analysis of multivariate observations.
-- **Isolation Forest**: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest.
+- **Isolation Forest**: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In _2008 eighth ieee international conference on data mining_.
+- **PCA (Principal Component Analysis)**: Jolliffe, I. T., & Cadima, J. (2016). Principal component analysis: a review and recent developments.
+
+### Statistical Methods
+
+- **Mann-Kendall Test**: Mann, H. B. (1945). Nonparametric tests against trend. _Econometrica_, 13(3), 245-259.
+- **Linear Regression**: Standard OLS regression for trend detection.
+
+### Data Sources
+
 - **Climate Data**: Nepal Department of Hydrology and Meteorology
+- **Bagmati Province Districts**: Administrative boundaries and district data
 
 ---
 

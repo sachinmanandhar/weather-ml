@@ -41,11 +41,11 @@ COLORS = {
 }
 
 REGIME_COLORS = {
-    'A: Hot & Dry': '#FF6B6B', 
-    'B: Cold & Dry': '#4ECDC4', 
-    'C: Warm & Humid': '#45B7D1', 
-    'D: Extreme Rainfall': '#96CEB4',
-    'E: Pre-monsoon Storms': '#FFEAA7'
+    'A: Hot & Dry': '#DC143C',        # Crimson red - hot, desert-like
+    'B: Cold & Dry': '#4169E1',       # Royal blue - cold, icy
+    'C: Warm & Humid': '#32CD32',     # Lime green - warm, moist, vegetation
+    'D: Extreme Rainfall': '#1E90FF', # Dodger blue - water, heavy rain
+    'E: Pre-monsoon Storms': '#9370DB' # Medium purple - storms, clouds
 }
 
 MONTH_NAMES = {1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun',
@@ -401,7 +401,7 @@ def analyze_single_district(df_district, district_name, output_dir, feature_cols
 
 def create_district_dashboard(results, output_dir, district_name):
     """Create a dashboard for a single district"""
-    fig = plt.figure(figsize=(16, 12))
+    fig = plt.figure(figsize=(20, 14))
     fig.suptitle(f'Climate Analysis Dashboard: {district_name}\nTrend & Anomaly Detection', 
                  fontsize=14, fontweight='bold')
     
@@ -410,7 +410,7 @@ def create_district_dashboard(results, output_dir, district_name):
     feature_cols = ['evap', 'rain', 'soilMoist', 'temp']
     
     # Plot 1: Temperature Trend
-    ax1 = fig.add_subplot(2, 3, 1)
+    ax1 = fig.add_subplot(3, 3, 1)
     yearly_avg = data.groupby('year')[feature_cols].mean().reset_index()
     if 'temp' in yearly_avg.columns and len(yearly_avg) > 1:
         ax1.scatter(yearly_avg['year'], yearly_avg['temp'], color=COLORS['primary'], alpha=0.7, s=50)
@@ -426,7 +426,7 @@ def create_district_dashboard(results, output_dir, district_name):
                     transform=ax1.transAxes, ha='right', fontsize=9)
     
     # Plot 2: Rainfall Trend
-    ax2 = fig.add_subplot(2, 3, 2)
+    ax2 = fig.add_subplot(3, 3, 2)
     if 'rain' in yearly_avg.columns and len(yearly_avg) > 1:
         ax2.scatter(yearly_avg['year'], yearly_avg['rain'], color=COLORS['secondary'], alpha=0.7, s=50)
         z = np.polyfit(yearly_avg['year'], yearly_avg['rain'], 1)
@@ -441,7 +441,7 @@ def create_district_dashboard(results, output_dir, district_name):
                     transform=ax2.transAxes, ha='right', fontsize=9)
     
     # Plot 3: Anomaly Timeline
-    ax3 = fig.add_subplot(2, 3, 3)
+    ax3 = fig.add_subplot(3, 3, 3)
     normal_data = data[~data['is_anomaly']]
     anomaly_data = data[data['is_anomaly']]
     ax3.scatter(normal_data['date'], normal_data['anomaly_score'], c=COLORS['normal'], 
@@ -456,7 +456,7 @@ def create_district_dashboard(results, output_dir, district_name):
     ax3.legend(fontsize=8)
     
     # Plot 4: Monthly Anomaly Rates
-    ax4 = fig.add_subplot(2, 3, 4)
+    ax4 = fig.add_subplot(3, 3, 4)
     monthly_rate = results['monthly_anomaly_rate']
     colors_month = [COLORS['anomaly'] if r > 10 else COLORS['normal'] for r in monthly_rate]
     ax4.bar([MONTH_NAMES[m] for m in monthly_rate.index], monthly_rate.values, color=colors_month, alpha=0.8)
@@ -467,7 +467,7 @@ def create_district_dashboard(results, output_dir, district_name):
     plt.setp(ax4.xaxis.get_majorticklabels(), rotation=45)
     
     # Plot 5: Weather Regimes in PCA Space
-    ax5 = fig.add_subplot(2, 3, 5)
+    ax5 = fig.add_subplot(3, 3, 5)
     for regime in data['weather_regime'].unique():
         mask = data['weather_regime'] == regime
         color = REGIME_COLORS.get(regime, 'gray')
@@ -478,9 +478,31 @@ def create_district_dashboard(results, output_dir, district_name):
     ax5.set_ylabel('PC2')
     ax5.legend(fontsize=7, loc='upper right')
     
-    # Plot 6: Summary Statistics
-    ax6 = fig.add_subplot(2, 3, 6)
-    ax6.axis('off')
+    # Plot 6: Monthly Distribution of Weather Regimes
+    ax6 = fig.add_subplot(3, 3, 6)
+    # Calculate monthly distribution of regimes
+    monthly_regime_dist = pd.crosstab(data['month'], data['weather_regime'], normalize='index') * 100
+    
+    # Get all unique regimes and sort them
+    all_regimes = sorted(data['weather_regime'].unique())
+    regime_colors_list = [REGIME_COLORS.get(regime, 'gray') for regime in all_regimes]
+    
+    # Create stacked bar chart
+    monthly_regime_dist.plot(kind='bar', stacked=True, ax=ax6, 
+                             color=regime_colors_list, alpha=0.8, width=0.8)
+    ax6.set_title('📊 Monthly Regime Distribution (%)', fontweight='bold')
+    ax6.set_xlabel('Month')
+    ax6.set_ylabel('Percentage (%)')
+    # Set month labels
+    month_labels = [MONTH_NAMES.get(month, str(month)) for month in monthly_regime_dist.index]
+    ax6.set_xticklabels(month_labels, rotation=45, ha='right')
+    ax6.legend(title='Weather Regime', fontsize=7, loc='upper left', bbox_to_anchor=(1.02, 1))
+    ax6.set_ylim(0, 100)
+    ax6.grid(axis='y', alpha=0.3)
+    
+    # Plot 7: Summary Statistics
+    ax7 = fig.add_subplot(3, 3, 7)
+    ax7.axis('off')
     
     summary_text = f"""
 ╔══════════════════════════════════════════╗
@@ -501,7 +523,7 @@ def create_district_dashboard(results, output_dir, district_name):
 ╚══════════════════════════════════════════╝
 """
     
-    ax6.text(0.1, 0.5, summary_text, transform=ax6.transAxes, fontsize=10,
+    ax7.text(0.1, 0.5, summary_text, transform=ax7.transAxes, fontsize=10,
              verticalalignment='center', fontfamily='monospace',
              bbox=dict(boxstyle='round', facecolor='#f0f0f0', alpha=0.9))
     
